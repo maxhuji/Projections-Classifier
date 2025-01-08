@@ -9,9 +9,6 @@ Overbeck, M., Baden, C., Aharoni, T., Amit-Danhi, E., & Tenenboim Weinblatt, K. 
 Tenenboim-Weinblatt, K., Baden, C., Aharoni, T., Overbeck, M., & Amit-Danhi, E. R. (2021). PROFECI Codebook: Israeli Elections 2019-2021 & US Elections 2016/2020. PROFECI Working Paper 02-2021. Jerusalem, Israel: The Hebrew University of Jerusalem. http://profeci.net/PROFECI%20Working%20Paper%2002-2021%20Codebook.pdf
 
 In this repository you fill find the following material: 
-1. The supplementary material.docx file that provides further details on the various steps and dictionaries used in the pre-processing, and the codebook used for the manual annotation.
-2. The Classifications_Input.xlsx dataset that is required to train the projections classifier (based on 10.000 manually annotated segments), and to test its performance against the Gold Standard (1.637 manually annotated segments). 
-3. The Script to train and test the performance of the projections classifier on the English corpus. 
-4. The Script to train and test the performance of the projections classifier on the French and Hebrew corpus.
-5. The Script to run the projections classifier on new snippets. 
+1. The Classifications_Input.xlsx dataset that is required to train the projections classifier (based on 10.000 manually annotated segments), and to test its performance against the Gold Standard (1.637 manually annotated segments). 
+2. The Projections_Classifier_documentation.ipynb notebook (to be run via google colab) to train the projections classifier, test its performance against goldstandard data, and apply the trained model to additional files. 
 
